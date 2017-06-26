@@ -1,0 +1,89 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/pikachu.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .grilla {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+ 
+
+  
+
+}
+.grilla{
+  width: 60%;
+  box-sizing: border-box;
+ 
+
+}
+.col-40 {
+  background:#f9eb25;
+  padding: 30px;
+  color: #000;
+  position: relative;
+  width: 40%;
+  box-sizing: border-box;
+  animation: fadein 1s;
+}
+
+#juego{
+
+  text-align: center;
+  animation: fadein 2s;
+  width: 600px;
+  height: 600px;
+  background: #f9eb25;
+  
+}
+
+.imagen {
+  float:left;
+  width:200px;
+  height:200px;
+  
+} 
+img{
+  width:200px;
+  height:200px;
+
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+h1{
+  border:1px solid white;
+  margin:10px;
+  background: #ff4d1c;
+  text-align: center;
+   
+}
+
+h2{
+  border:1px solid white;
+  margin:30px;
+  background: #ff4d1c;
+  text-align: center;
+}

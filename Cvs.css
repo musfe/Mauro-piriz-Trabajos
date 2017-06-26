@@ -1,0 +1,73 @@
+h2 {color: #0A4C51;
+font-family:Lucida console;
+font-size: 24px;
+font-style:normal;
+border-bottom:3px solid #0A4C51  ;}
+
+h3 {color:#0A4C51;
+font-size: 30px;
+font-family: 'Rubik Mono One', sans-serif;}
+
+ul{color:black;
+font-family: 'Roboto', sans-serif;
+font-size:15px;}
+
+li {border-bottom:1px dotted black;
+list-style: none}
+
+body{background: #eaeaea}
+
+p {font-family: 'Source Sans Pro', sans-serif;}
+
+
+#menu {
+	float: left;
+width: 20%;
+padding:5px;
+}
+#menu ul{
+	padding: 0px;
+	padding-right: 10px;
+}
+
+.botonera{
+   padding: 10px;
+   margin: 5px;
+   background:white;
+   border:3px #0187b7;
+   border-radius:10px;
+}
+
+#contenido {
+	float: right;
+	width: 75%
+}
+
+#Presentacion {padding: 10px;
+border:5px solid #0187b7;
+margin:10px;
+background: white;
+border-radius:10px;
+}
+
+#Formacion{padding: 10px;
+border:5px solid #0187b7;
+margin:10px;
+border-radius:10px;
+background: white;
+}
+
+#Experiencia{padding: 10px;
+border:5px solid #0187b7;
+margin:10px;
+border-radius:10px;
+background: white;
+}
+
+
+#Portfolio{padding: 10px;
+border:5px solid #0187b7;
+border-radius:10px;
+margin:10px;
+background: white;
+}
